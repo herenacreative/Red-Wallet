@@ -1,0 +1,30 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.main__header{
+    width: 100vw;
+    height: 100vh;
+}
+.bg__1 {
+    background-color: map-get($color, primary) !important;
+    @include flexBox(center, space-around);
+    flex-direction: column;
+    padding: 2em;
+}
+.img__phone {
+    width: 60%;
+    height: auto;
+}
+.bg__2 {
+    @include flexBox(space-around, space-around);
+    flex-direction: column;
+}
+.form__login{
+    padding: 8%;
+    width: 100%;
+    height: 80%;
+}
+.btn__primary{
+    @include Button;
+    width: 100%;
+}

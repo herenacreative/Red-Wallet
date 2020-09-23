@@ -1,0 +1,20 @@
+@mixin flexBox ($fjc, $fai) {
+    justify-content: $fjc;
+    align-items: $fai;
+    display: flex;
+}
+@mixin fonts($fontColor, $fontWeight) {
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: $fontColor;
+    font-weight: $fontWeight;
+}
+@mixin image($iw, $ih) {
+    width: $iw;
+    height: $ih;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+@mixin Button {
+    background-color: map-get($color, primary) !important;
+    color: map-get($color, light) !important;
+}

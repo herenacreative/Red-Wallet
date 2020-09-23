@@ -1,0 +1,82 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+/*navbar*/
+.img_sm {
+    @include image(3em, 3em);
+}
+.card_img {
+    @include flexBox(space-between, center);
+    flex-direction: row;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.card_user-1 {
+    @include flexBox(flex-start, center);
+}
+
+/*sidebar*/
+.card_radius {
+    background-color: map-get($color, light) !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.navbar {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: map-get($color, light) !important;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-item {
+    padding: .5rem 0 .5rem;
+    margin-top: 5px;
+
+    :focus {
+        color: map-get($color, primary) !important;
+        border-left: solid map-get($color, primary) !important;
+        padding-left: 30px;
+    }
+}
+.nav_text {
+    margin-left: 1rem;
+}
+.navbottom {
+    @include flexBox(space-between, space-between);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: map-get($color, light) !important;
+    opacity: .7;
+}
+.side__bar{
+    height: 100%;
+    @include flexBox(space-between, flex-start);
+    flex-direction: column;
+    margin: 0 auto;
+}
+/*content*/
+.flex__row{
+    @include flexBox(space-between, center);
+    flex-direction: column;
+    margin: 0 auto;
+}
+footer {
+    background-color: map-get($color, primary) !important;
+    padding: 10px 0 10px;
+}
+.homepage{
+    background-color: map-get($color, light2) !important;
+}
+.fr__center{
+    @include flexBox(center, center);
+    display: flex;
+}
+.link__light{
+    text-decoration:none;
+    color: map-get($color, light) !important;
+}

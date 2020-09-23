@@ -1,0 +1,40 @@
+// @import "../pages/login";
+
+@media screen and (max-width: 770px) {
+    .row2 {
+        display: none;
+    }
+    .form__login {
+        width: 120%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .cover__login{
+        display: none;
+    }
+    .navbottom > a >.nav_text {
+        font-size: 12px;
+        padding: 0 auto;
+        width: 100%;
+    }
+    .fr__footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .fr__row > div >.font__light-b{
+        font-size: 22px;
+    }
+    .size__font>.font__dark-b {
+        font-size: 20px;
+    }
+    // footer{
+    //     height: 12em;
+    // }
+}
+
+@media screen and (min-width: 770px) {
+    .responsive-mobile {
+        display: none;
+    }
+}

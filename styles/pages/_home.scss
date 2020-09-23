@@ -1,0 +1,29 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.fr__row {
+    @include flexBox(space-between, center);
+    flex-direction: row;
+    padding: .4em;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.content__1{
+    padding: 20px;
+    background-color: map-get($color, primary) !important;
+    border-radius: 20px;
+}
+
+.btn__transparant {
+    background-color: map-get($color, default) !important;
+    opacity: .9;
+    width: 100%;
+}
+#chartdiv {
+    width: 100%;
+    height: 300px;
+}

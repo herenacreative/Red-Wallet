@@ -1,0 +1,9 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.btn__primary-sm{
+    @include Button;
+}
+.landing__page{
+    width: 100vw;
+}

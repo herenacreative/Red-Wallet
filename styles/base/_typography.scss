@@ -1,0 +1,22 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.font__light-b {
+    @include fonts(map-get($color, light), 700);
+}
+.font__light{
+    @include fonts(map-get($color, light), 300);
+}
+.font__dark-b {
+    @include fonts(map-get($color, dark), 700);
+}
+.font__dark {
+    @include fonts(map-get($color, dark), 300);
+}
+.font__default {
+    @include fonts(map-get($color, dark), 300);
+    opacity: .5;
+}
+.font__primary {
+    @include fonts(map-get($color, primary), 700);
+}
