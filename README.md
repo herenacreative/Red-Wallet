@@ -22,3 +22,6 @@ The Z-wallet application is an electronic device, which allows users to make onl
 
 ### Screenshot
 ---
+<div align=center>
+  <img width="300" src="https://github.com/herenacreative/Red-Wallet/blob/master/screenshot/Screenshot_2020-09-24_21-17-31.png"> 
+</div>
