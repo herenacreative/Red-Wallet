@@ -1,6 +1,6 @@
 # Website Red Wallet
 ---
-[View Demo](http://nodeca.github.io/pica/demo/ "Demo Program!") :)
+[View Demo](https://red-wallet.netlify.app/login.html "Demo Program!") :)
 
 ### Table of Contents
 ---
