@@ -7,3 +7,75 @@
 .landing__page{
     width: 100vw;
 }
+.img__1{
+   width: 43%;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+.fr__right {
+    @include flexBox(space-between, center);
+    flex-direction: row;
+    padding: .4em;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 200px;
+}
+.img__2{
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    right: 15%;
+}
+.btn__light{
+    background-color: map-get($color, light) !important;
+    color: map-get($color, primary) !important;
+    width: 100%;
+}
+.p__{
+    padding: 100px;
+}
+
+.fr_center{
+    @include flexBox(center, center);
+    flex-direction: column;
+    padding-top: 30px;
+
+    &__card{
+        @include flexBox(center, center);
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+.img__3{
+    width: 5em;
+    height: 50px;
+    margin: 5px;
+}
+.fr__wrap{
+    display: flex;
+    // @include flexBox(space-around, space-around);
+    flex-wrap: wrap;
+}
+
+.page__6{
+    background-color: map-get($color, primary) !important;
+    padding: 30px;
+}
+.col_start{
+    @include flexBox(flex-start, center);
+    flex-direction: row;
+}
+.page__2{
+    position: relative;
+    top: 30%;
+}
+
+.fr_cen{
+    @include flexBox(space-around, flex-start);
+    flex-direction: column;
+}
