@@ -5,9 +5,9 @@
 ### Table of Contents
 ---
 
-+ __[About the Project](https://nodeca.github.io/pica/demo/)__
-  - __[Build With](https://nodeca.github.io/pica/demo/)__
-+ __[Screenshot](https://nodeca.github.io/pica/demo/)__
++ __[About the Project](https://)__
+  - __[Build With](https://)__
++ __[Screenshot](https://)__
 
 
 ### About the Project
